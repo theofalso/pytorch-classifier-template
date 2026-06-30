@@ -15,16 +15,18 @@ pytorch-classifier-template/
 │   └── train.py        # Training loop and JSON class exporter
 ├── app.py              # Gradio web UI for inference
 └── requirements.txt    # Python dependencies
+```
 Quick Start
 1. Prepare your Dataset
 Organize your images into subdirectories inside data/train and data/test. The names of these subdirectories will automatically become your classification labels.
 
 Example:
 
-Plaintext
+```text
 data/train/
 ├── cats/
 └── dogs/
+```
 2. Install Dependencies
 Ensure you have Python 3.10+ installed, then run:
 
