@@ -2,4 +2,3 @@ torch
 torchvision
 gradio
 Pillow
-facenet-pytorch
